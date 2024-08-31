@@ -1,5 +1,5 @@
 <template>
-    <Section class="bg-[url('../assets/img/hero-img.png')] bg-cover bg-repeat bg-[#f8f9fa] pt-28">
+    <section class="bg-[url('../assets/img/hero-img.png')] bg-cover bg-repeat bg-[#f8f9fa] pt-28">
         <div class="container flex items-center gap-10 justify-center">
             <div class="max-w-[482px]">
                 <h1 class="font-bold text-[#161c27] text-3xl sm:text-5xl">{{datas.title}}</h1>
@@ -12,7 +12,7 @@
                 <img src="https://stesting.uz/focused-man.png" alt="stesting main image">
             </div>
         </div>
-    </Section>
+    </section>
 </template>
 
 <script setup>

@@ -47,7 +47,3 @@ const handleButtonClick = (type) => {
   console.log(`Button clicked: ${type}`);
 };
 </script>
-
-<style scoped>
-/* Add custom styles if needed */
-</style>

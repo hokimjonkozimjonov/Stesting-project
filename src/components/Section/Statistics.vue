@@ -1,5 +1,5 @@
 <template>
-    <Section class="mt-40">
+    <section class="mt-40">
         <div class="container lg:bg-[url('../assets/img/statisticsbg.png')] bg-cover bg-repeat">
             <div class="sm:mx-28 lg:mx-0 lg:flex justify-center gap-8 mt-[-80px] pb-10">
                 <div class="bg-white py-5 px-16 text-center shadow-lg">
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-    </Section>
+    </section>
 </template>
 
 <script setup>

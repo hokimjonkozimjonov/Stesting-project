@@ -1,5 +1,5 @@
 <template>
-    <Section class="my-10">
+    <section class="my-10">
         <div class="container sm:flex justify-between shadow-xl">
             <nav class="p-5">
                 <ul class="text-center sm:text-start">
@@ -13,7 +13,7 @@
                 <iframe class="h-full w-[450px] md:w-[650px] lg:w-[750px]" src="https://www.youtube.com/embed/-ODNf9FfvMA\"></iframe>
             </div>
         </div>
-    </Section>
+    </section>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-    <Section>
+    <section>
         <div class="container lg:flex justify-between items-center gap-10">
             <div class="bg-[url-('../assets/img/playerbg.png')] bg-cover bg-repeat">
                 <iframe class="w-full lg:w-[500px] h-[300px]" :src="video.video"></iframe>
@@ -12,7 +12,7 @@
                 </RouterLink>
             </div>
         </div>
-    </Section>
+    </section>
 </template>
 
 <script setup>

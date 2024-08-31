@@ -10,10 +10,13 @@
 			</RouterLink>
 			<nav class="min-[100px]:hidden md:block">
 				<ul class="list flex items-center md:gap-3 lg:gap-10">
-					<li v-for='item in links' :key='item.id' :item='item'
+					<li
+						v-for="item in links"
+						:key="item.id"
+						:item="item"
 						class="font-semibold text-base text-black-100 hover:text-blue-600"
 					>
-						<RouterLink :to="item.to"> {{item.name}} </RouterLink>
+						<RouterLink :to="item.to"> {{ item.name }} </RouterLink>
 					</li>
 				</ul>
 			</nav>
@@ -67,10 +70,13 @@
 							/>
 						</button>
 						<ul class="list flex flex-col gap-4 my-4">
-							<li v-for='item in links' :key='item.id' :item='item'
+							<li
+								v-for="item in links"
+								:key="item.id"
+								:item="item"
 								class="font-semibold text-base text-black-100 hover:text-blue-600"
-								>
-								<RouterLink :to="item.to"> {{item.name}} </RouterLink>
+							>
+								<RouterLink :to="item.to"> {{ item.name }} </RouterLink>
 							</li>
 						</ul>
 						<div class="relative inline-block text-left">
@@ -100,9 +106,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="mt-6">
-							<Buttons text="Kirish" variant="primary"/>
-						</div>			
+						
 					</div>
 				</div>
 			</div>
@@ -111,7 +115,7 @@
 </template>
 
 <script setup>
-import {links} from '../data'
+import { links } from '../data';
 import { ref, onMounted } from 'vue';
 import Buttons from '../Common/Buttons.vue';
 

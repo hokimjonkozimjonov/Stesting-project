@@ -1,5 +1,5 @@
 <template>
-    <Section class="bg-[#f8fbff]">
+    <section class="bg-[#f8fbff]">
         <div class="container">
             <div class="md:flex justify-between items-center">
                 <div class="mb-8 max-w-52 md:mb-0 bg-[url('https://stesting.uz/wrap3.png')] bg-cover bg-repeat">
@@ -16,7 +16,7 @@
         <div class="flex justify-end mt-[-80px]">
             <img src="https://stesting.uz/_nuxt/img/news-bg-item.fcbfd23.png">
         </div>
-    </Section>
+    </section>
 </template>
 
 <script setup>
@@ -31,7 +31,6 @@ const getIndexCard = () => {
 		.then((res) => res.json())
 		.then((data) => {
 			indexcard.value = data.results;
-            console.log(indexcard.value);
 		})
 };
 

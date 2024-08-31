@@ -1,5 +1,5 @@
 <template>
-    <Section class="my-20">
+    <section class="my-20">
         <div class="container md:flex justify-center items-center gap-10 bg-[#f8f9fa]">
             <div>
                 <div class="relative">
@@ -15,7 +15,7 @@
                 </RouterLink>
             </div>
         </div>
-    </Section>
+    </section>
 </template>
 
 <script setup>
